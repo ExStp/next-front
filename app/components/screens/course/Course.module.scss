@@ -8,7 +8,11 @@
 }
 .days {
   @apply flex items-center justify-start px-5 gap-5 pt-3 overflow-x-scroll;
+  padding-bottom: 12px;
   .day {
+    height: 94px;
+    width: 120px;
+    box-sizing: border-box;
     @apply p-2 px-4 min-w-[120px] rounded-md border-gray border cursor-pointer relative;
     > span {
       @apply text-gray mb-1 flex;
@@ -35,7 +39,11 @@
 }
 
 .lesson {
+  margin: 0 auto;
   @apply relative block;
+  width: 90%;
+  max-width: 800px;
+  margin-bottom: 12px;
   > img {
     @apply w-full object-cover max-h-[300px];
   }
