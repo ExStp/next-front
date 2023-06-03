@@ -6,6 +6,9 @@
   .ul {
     @apply animate-fade sm:flex sm:justify-center sm:items-center sm:w-full sm:gap-2.5;
     > li {
+      .mainBtn{
+        font-size: 18px;
+      }
       @apply mb-6 sm:mb-0;
       > a,
       p {
